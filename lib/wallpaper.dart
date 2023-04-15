@@ -62,7 +62,7 @@ await http.get(Uri.parse(url), //pexels api fonksiyonu
                itemBuilder: (context,index){
              return Container(color: Colors.white,
              child: Image.network(images[index]['src']
-             ['tiny'],fit: BoxFit.cover,),); //pexels dokümasyonundan tiny=(hızlı yükleme) boyutunda resim
+             ['original'],fit: BoxFit.cover,),); //pexels dokümasyonundan original tiny=(hızlı yükleme) boyutunda resim
                }),
 
          ),),
